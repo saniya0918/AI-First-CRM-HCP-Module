@@ -117,29 +117,6 @@ In a real life sciences CRM, this agent would reduce manual data entry, improve 
 6. **Schedule Follow-up**
    Creates a follow-up recommendation with date, channel, topic, and priority.
 
-## Demo Endpoints
 
-- `GET /api/health` checks server status.
-- `GET /api/hcps` lists sample HCPs.
-- `POST /api/interactions` logs with structured form data.
-- `PATCH /api/interactions/{interaction_id}` edits logged data.
-- `POST /api/agent/chat` lets the LangGraph agent process a chat message.
-- `GET /api/agent/tools/demo` runs all six tools and returns their outputs.
 
-## Video Recording Checklist
 
-Use this flow for the 10-15 minute demo:
-
-1. Explain the assignment: AI-first CRM HCP module for field representatives.
-2. Show the React screen and switch between structured form and chat modes.
-3. Submit a structured interaction.
-4. Use chat to log another interaction naturally.
-5. Open FastAPI docs and run `/api/agent/tools/demo`.
-6. Briefly explain `backend/app/agent.py`, `backend/app/main.py`, and `frontend/src/App.jsx`.
-7. Mention Groq `gemma2-9b-it`, LangGraph, Redux, FastAPI, and PostgreSQL.
-
-## Submission
-
-Push this folder to GitHub and submit the repository link in the Google Form:
-
-https://forms.gle/XdvLNBJkbdVDGADM8
